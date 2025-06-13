@@ -4,17 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-<<<<<<< HEAD
-    <groupId>com.example</groupId>
-    <artifactId>demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <name>demo</name>
-=======
     <groupId>mx.edu.utez</groupId>
-    <artifactId>U2_TI_05Formulario</artifactId>
+    <artifactId>demo2</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>U2_TI_05Formulario</name>
->>>>>>> 7a2c7c26e22d841bb90b28e27bbba378b0d8d3b8
+    <name>demo2</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,20 +18,12 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-<<<<<<< HEAD
-            <version>17.0.6</version>
-=======
             <version>21</version>
->>>>>>> 7a2c7c26e22d841bb90b28e27bbba378b0d8d3b8
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-<<<<<<< HEAD
-            <version>17.0.6</version>
-=======
             <version>21</version>
->>>>>>> 7a2c7c26e22d841bb90b28e27bbba378b0d8d3b8
         </dependency>
         <dependency>
             <groupId>org.controlsfx</groupId>
@@ -71,13 +56,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-<<<<<<< HEAD
-                    <source>8</source>
-                    <target>8</target>
-=======
                     <source>21</source>
                     <target>21</target>
->>>>>>> 7a2c7c26e22d841bb90b28e27bbba378b0d8d3b8
                 </configuration>
             </plugin>
             <plugin>
@@ -89,12 +69,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-<<<<<<< HEAD
-                            <mainClass>com.example.demo/com.example.demo.HelloApplication</mainClass>
-=======
-                            <mainClass>mx.edu.utez.u2_ti_05formulario/mx.edu.utez.u2_ti_05formulario.HelloApplication
-                            </mainClass>
->>>>>>> 7a2c7c26e22d841bb90b28e27bbba378b0d8d3b8
+                            <mainClass>mx.edu.utez.demo2/mx.edu.utez.demo2.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
